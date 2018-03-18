@@ -5,6 +5,16 @@ git remote add origin https://github.com/xielifei/a.git
 git push -u origin master
 
 
+git diff 文件名   //查看文件的更改
+git log          //查看修改记录
+git reset  --hard HEAD^   //回到上一个版本
+
+
+退回最新版本
+git reflog     //找到版本号
+git reset  --hard 版本号 
+
+
 如果输入$ git remote add origin git@github.com:djqiang（github帐号名）/gitdemo（项目名）.git 
 
     提示出错信息：fatal: remote origin already exists.
